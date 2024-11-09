@@ -35,7 +35,7 @@ console.log(typeof outsideTemp); //output null aega
 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-// Stack (Primitive) - copy milti h , Heap (Non-Primitive) - refernce milta h (original value m chanhge hota h)
+// Stack (Primitive) - copy milti h , Heap (Non-Primitive) - reference milta h (original value m chanhge hota h)
 
 let myYoutubeName = "rohansinghdotcom"
 
