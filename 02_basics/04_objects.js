@@ -48,8 +48,26 @@ const users = [
 ]
 
 users[1].email
-console.log(Object.keys(tinderUser)); //Datatype is an array
-console.log(Object.values(tinderUser)) 
-console.log(Object.entries(tinderUser)) //Output : [ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedin', false ] ]
+// console.log(Object.keys(tinderUser)); //Datatype is an array
+// console.log(Object.values(tinderUser)) 
+// console.log(Object.entries(tinderUser)) //Output : [ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedin', false ] ]
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'))
+
+
+const course = {
+    courseName: "JS in Hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+//Good practice: Destructuring (Syntax Chota krne k liye use krt eh bs ar kch nhi)
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// +++++++++++++++++++++++++    Used in React    +++++++++++++++++++++++++
+/* const navbar = ({compnay}) => {}
+navbar(compnay = "Nvidia") */
