@@ -20,15 +20,15 @@ const jsUser = {
 
 //Ways of accessing an object
 
-// console.log(jsUser.email);
-// console.log(jsUser["email"])
-// console.log(jsUser["fullName"]); // => This is the only way here to access the elements
-// console.log(jsUser[mySym]); // => This is the only way here to access the elements
+console.log(jsUser.email);
+console.log(jsUser["email"])
+console.log(jsUser["fullName"]); // => This is the only way here to access the elements
+console.log(jsUser[mySym]); // => This is the only way here to access the elements
 
 jsUser.email = "rohan@chatgpt.com"
 // Object.freeze(jsUser) // => Iske baad object koi change nhi kr skta h 
 jsUser.email = "rohan@micrsoft.com"
-// console.log(jsUser);
+console.log(jsUser);
 
 
 //Adding a function as an instance of the object
