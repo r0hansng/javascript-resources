@@ -48,6 +48,10 @@ const chai = () => {
 //When we use {} we HAVE to use return keyword but when we use parenthesis we don't use return keyword.
 // const addTwo = (num1, num2) => (num1, num2)
 
+// const addTwo = (num1, num2) => {
+//     username: "Rohan"
+//     return username
+// }
 const addTwo = (num1, num2) => ({username: "Rohan"})
 
 console.log(addTwo(3, 4));
