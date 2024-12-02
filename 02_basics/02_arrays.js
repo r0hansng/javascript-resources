@@ -23,7 +23,7 @@ console.log(usableAnotherArray);
 
 console.log(Array.isArray("Rohan"));
 console.log(Array.from("Rohan"));
-console.log(Array.from({"rohan"})); //Output: [] ++(Interesting for interview)++
+// console.log(Array.from({"rohan"})); //Output: [] ++(Interesting for interview)++
 
 let score1 = 100
 let score2 = 200

@@ -61,7 +61,7 @@ const course = {
     courseInstructor: "Hitesh"
 }
 
-//Good practice: Destructuring (Syntax Chota krne k liye use krt eh bs ar kch nhi)
+//Good practice: Destructuring (Syntax Chota krne k liye use krte h bs ar kch nhi)
 
 const {courseInstructor: instructor} = course
 
