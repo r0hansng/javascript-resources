@@ -1,5 +1,5 @@
 //Truthy: A value which is always true
-//Flasy : A value which is always false
+//Falsy : A value which is always false
 
 const userEmail = []
 

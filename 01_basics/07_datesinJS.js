@@ -10,7 +10,7 @@ let myDate = new Date()
 let myCreatedDate = new Date("01-14-2024") //mm-dd-yy
 // console.log(myCreatedDate.toLocaleString());
 
-let myTimeStamp = Date.now() //For getting the exact time stamp Usecase: when we are creating polls and such stuff
+let myTimeStamp = Date.now() //For getting the exact time stamp Use case: when we are creating polls and such stuff
 // console.log(myTimeStamp);
 // console.log(myCreatedDate.getTime());//Get time in millisecond
 

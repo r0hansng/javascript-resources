@@ -15,7 +15,7 @@ console.log(id === anotherId)
 
 // const bigNumber = 311231231231231241241321n // bigint k liye last me number k n  laga dena h 
 
-//Refernce Type (Non-Primitve)
+//Reference Type (Non-Primitive)
 
 //Arrays, Objects, Functions
 
