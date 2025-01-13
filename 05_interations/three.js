@@ -28,6 +28,7 @@ for (const [key, value] of map) {
     console.log(key, value);
 }
 
+// We cannot use for of loop with objects because they are not iterable
 const myObject = {
     'game1': 'NFS',
     'game2': 'spiderman'
